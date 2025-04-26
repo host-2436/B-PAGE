@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
                 <div class="cart-item-details">
                     <span class="cart-item-name">${item.name || 'Unknown Item'}</span>
-                    <span class="cart-item-price">$${price.toFixed(2)} each</span>
+                    <span class="cart-item-price">${price.toFixed(2)}/- each</span>
                     <span class="cart-item-quantity">Qty: ${quantity}</span>
                     <span class="cart-item-subtotal">Subtotal: ${itemTotalPrice.toFixed(2)}/-</span>
                 </div>
