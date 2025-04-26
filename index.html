@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARUNA PICKLES</title> <!-- UPDATE BRAND NAME -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="logo4.png" alt="Pickle Pantry Logo"> <!-- REPLACE -->
+                <span>ARUNA PICKLES</span> <!-- UPDATE BRAND NAME -->
+            </a>
+            <nav class="main-nav">
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu">
+                     <li><a href="#hero">Home</a></li>
+                     <li><a href="#featured-products">Shop</a></li>
+                     <li><a href="#about">Our Story</a></li>
+                     <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#cart" aria-label="Shopping Cart"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+                <!-- Optional Account Link -->
+                <!-- <a href="#account" aria-label="My Account"><i class="fas fa-user"></i></a> -->
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section (Parallax Target, Left Aligned Content) -->
+        <section id="hero" class="hero-section">
+            <div class="hero-overlay"></div> <!-- Overlay for text readability -->
+            <div class="container"> <!-- Content still inside the main container for padding -->
+                 <div class="hero-content"> <!-- This block is aligned left via CSS -->
+
+                    <p class="animate-on-scroll fade-in-up delay-1">Aruna Pickles is a premium food brand specializing in authentic, handcrafted Indian pickles that cater to diverse palates with an irresistible blend of vegetarian and non-vegetarian options.Our vegetarian range features classics like mango (avakaya), lemon, gongura,and mixed vegetable pickles, made from the freshest produce and aromatic spices.
+
+                        For non-vegetarian lovers, we offer an exquisite selection, including chicken, prawn, mutton, and fish pickles, prepared with high-quality, halal-certified meatand seafood, infused with traditional masalas for a burst of flavor.
+                        
+                        Every jar of Aruna Pickles is made in small batches to ensure freshness and authenticity, using natural ingredients free from artificial preservatives, colors, or additives. Whether it’s the zesty crunch of our veg pickles or the savory richness of our non-veg varieties, we aim to elevate your meals—perfect with rice, roti, or as a standalone treat. Available in various sizes (e.g. 500g, 1kg), Aruna Pickles combines hygienic production with a commitment to quality, making it a trusted choice for households and food enthusiasts alike. From local markets to potential global reach, Aruna Pickles celebrates the essence of Indian cuisine, one flavorful bite at a time</p>
+                    <a href="#featured-products" class="btn btn-accent animate-on-scroll fade-in-up delay-2">Discover Our Pickles <i class="fas fa-chevron-right"></i></a>
+                 </div>
+            </div>
+        </section>
+
+        <!-- Featured Products Section -->
+        <section id="featured-products" class="product-section">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll fade-in">Our Full Pickle Assortment</h2>
+                <div class="product-grid">
+
+                
+                    <div class="product-card animate-on-scroll fade-in-up delay-1" data-product-id="pickle-variety-1" data-price="250" data-image-src="avakaya.jpg">
+                        <div class="product-image"><img src="avakaya.jpg" alt="Description of Pickle 1"></div>
+                        <div class="product-info"><h3>AVAKAYA</h3><p class="product-description">0.5KG</p><div class="product-actions"><p class="product-price">250/-</p><div class="quantity-selector"><label class="qty-label" for="qty-pickle-2">Qty:</label><input type="number" class="quantity-input" id="qty-pickle-2" name="quantity" min="1" value="1" aria-label="Quantity for Pickle Variety 2 Name"></div></div><button class="btn btn-primary add-to-cart-btn">Add to Cart <i class="fas fa-cart-plus"></i></button></div>
+                    </div>
+               
+                    <div class="product-card animate-on-scroll fade-in-up delay-2" data-product-id="pickle-variety-2" data-price="499" data-image-src="avakaya.jpg">
+                        <div class="product-image"><img src="avakaya.jpg" alt="Description of Pickle 2"></div>
+                        <div class="product-info"><h3>AVAKAYA</h3><p class="product-description">1KG</p><div class="product-actions"><p class="product-price">499/-</p><div class="quantity-selector"><label class="qty-label" for="qty-pickle-3">Qty:</label><input type="number" class="quantity-input" id="qty-pickle-3" name="quantity" min="1" value="1" aria-label="Quantity for Pickle Variety 3 Name"></div></div><button class="btn btn-primary add-to-cart-btn">Add to Cart <i class="fas fa-cart-plus"></i></button></div>
+                    </div>
+                   
+                    <div class="product-card animate-on-scroll fade-in-up delay-3" data-product-id="pickle-variety-3" data-price="250" data-image-src="mango.jpeg">
+                        <div class="product-image"><img src="mango.jpeg" alt="Description of Pickle 3"></div>
+                        <div class="product-info"><h3>MAGAI</h3><p class="product-description">0.5KG</p><div class="product-actions"><p class="product-price">250/-</p><div class="quantity-selector"><label class="qty-label" for="qty-pickle-4">Qty:</label><input type="number" class="quantity-input" id="qty-pickle-4" name="quantity" min="1" value="1" aria-label="Quantity for Pickle Variety 4 Name"></div></div><button class="btn btn-primary add-to-cart-btn">Add to Cart <i class="fas fa-cart-plus"></i></button></div>
+                    </div>
+                    
+                    <div class="product-card animate-on-scroll fade-in-up" data-product-id="pickle-variety-4" data-price="499" data-image-src="mango.jpeg">
+                        <div class="product-image"><img src="mango.jpeg" alt="Description of Pickle 4"></div>
+                        <div class="product-info"><h3>MAGAI</h3><p class="product-description">1KG</p><div class="product-actions"><p class="product-price">499/-</p><div class="quantity-selector"><label class="qty-label" for="qty-pickle-5">Qty:</label><input type="number" class="quantity-input" id="qty-pickle-5" name="quantity" min="1" value="1" aria-label="Quantity for Pickle Variety 5 Name"></div></div><button class="btn btn-primary add-to-cart-btn">Add to Cart <i class="fas fa-cart-plus"></i></button></div>
+                    </div>
+                    
+                    <div class="product-card animate-on-scroll fade-in-up delay-1" data-product-id="pickle-variety-5" data-price="200" data-image-src="allam.jpeg">
+                        <div class="product-image"><img src="allam.jpeg" alt="Description of Pickle 5"></div>
+                        <div class="product-info"><h3>ALLAM</h3><p class="product-description">1KG</p><div class="product-actions"><p class="product-price">200/-</p><div class="quantity-selector"><label class="qty-label" for="qty-pickle-6">Qty:</label><input type="number" class="quantity-input" id="qty-pickle-6" name="quantity" min="1" value="1" aria-label="Quantity for Pickle Variety 6 Name"></div></div><button class="btn btn-primary add-to-cart-btn">Add to Cart <i class="fas fa-cart-plus"></i></button></div>
+                    </div>
+                 
+                    <div class="product-card animate-on-scroll fade-in-up delay-2" data-product-id="pickle-variety-6" data-price="400" data-image-src="allam.jpeg">
+                        <div class="product-image"><img src="allam.jpeg" alt="Description of Pickle 6"></div>
+                        <div class="product-info"><h3>ALLAM</h3><p class="product-description">1KG</p><div class="product-actions"><p class="product-price">400/-</p><div class="quantity-selector"><label class="qty-label" for="qty-pickle-7">Qty:</label><input type="number" class="quantity-input" id="qty-pickle-7" name="quantity" min="1" value="1" aria-label="Quantity for Pickle Variety 7 Name"></div></div><button class="btn btn-primary add-to-cart-btn">Add to Cart <i class="fas fa-cart-plus"></i></button></div>
+                    </div>
+                  
+                    <div class="product-card animate-on-scroll fade-in-up delay-3" data-product-id="pickle-variety-7" data-price="250" data-image-src="tomato.jpeg">
+                        <div class="product-image"><img src="tomato.jpeg" alt="Description of Pickle 7"></div>
+                        <div class="product-info"><h3>TOMATO</h3><p class="product-description">0.5KG</p><div class="product-actions"><p class="product-price">250/-</p><div class="quantity-selector"><label class="qty-label" for="qty-pickle-8">Qty:</label><input type="number" class="quantity-input" id="qty-pickle-8" name="quantity" min="1" value="1" aria-label="Quantity for Pickle Variety 8 Name"></div></div><button class="btn btn-primary add-to-cart-btn">Add to Cart <i class="fas fa-cart-plus"></i></button></div>
+                    </div>
+                   
+                   <div class="product-card animate-on-scroll fade-in-up" data-product-id="pickle-variety-8" data-price="499" data-image-src="tomato.jpeg">
+                        <div class="product-image"><img src="tomato.jpeg" alt="Description of Pickle 8"></div>
+                        <div class="product-info"><h3>TOMATO</h3><p class="product-description">1KG</p><div class="product-actions"><p class="product-price">499/-</p><div class="quantity-selector"><label class="qty-label" for="qty-pickle-9">Qty:</label><input type="number" class="quantity-input" id="qty-pickle-9" name="quantity" min="1" value="1" aria-label="Quantity for Pickle Variety 9 Name"></div></div><button class="btn btn-primary add-to-cart-btn">Add to Cart <i class="fas fa-cart-plus"></i></button></div>
+                    </div>
+                   
+                    <div class="product-card animate-on-scroll fade-in-up delay-1" data-product-id="pickle-variety-9" data-price="250" data-image-src="lemonpickle.jpeg">
+                        <div class="product-image"><img src="lemonpickle.jpeg" alt="Description of Pickle 9"></div>
+                        <div class="product-info"><h3>LEMON</h3><p class="product-description">0.5KG</p><div class="product-actions"><p class="product-price">250/-</p><div class="quantity-selector"><label class="qty-label" for="qty-pickle-10">Qty:</label><input type="number" class="quantity-input" id="qty-pickle-10" name="quantity" min="1" value="1" aria-label="Quantity for Pickle Variety 10 Name"></div></div><button class="btn btn-primary add-to-cart-btn">Add to Cart <i class="fas fa-cart-plus"></i></button></div>
+                    </div>
+                   
+                    <div class="product-card animate-on-scroll fade-in-up delay-2" data-product-id="pickle-variety-10" data-price="499" data-image-src="lemonpickle.jpeg">
+                        <div class="product-image"><img src="lemonpickle.jpeg" alt="Description of Pickle 10"></div>
+                        <div class="product-info"><h3>LEMON</h3><p class="product-description">1KG</p><div class="product-actions"><p class="product-price">499/-</p><div class="quantity-selector"><label class="qty-label" for="qty-pickle-11">Qty:</label><input type="number" class="quantity-input" id="qty-pickle-11" name="quantity" min="1" value="1" aria-label="Quantity for Pickle Variety 11 Name"></div></div><button class="btn btn-primary add-to-cart-btn">Add to Cart <i class="fas fa-cart-plus"></i></button></div>
+                    </div>
+                
+                    <div class="product-card animate-on-scroll fade-in-up delay-3" data-product-id="pickle-variety-11" data-price="250" data-image-src="gongura.jpg">
+                        <div class="product-image"><img src="gongura.jpg" alt="Description of Pickle 11"></div>
+                        <div class="product-info"><h3>GONGURA</h3><p class="product-description">0.5KG</p><div class="product-actions"><p class="product-price">250/-</p><div class="quantity-selector"><label class="qty-label" for="qty-pickle-12">Qty:</label><input type="number" class="quantity-input" id="qty-pickle-12" name="quantity" min="1" value="1" aria-label="Quantity for Pickle Variety 12 Name"></div></div><button class="btn btn-primary add-to-cart-btn">Add to Cart <i class="fas fa-cart-plus"></i></button></div>
+                    </div>
+                    
+                    <div class="product-card animate-on-scroll fade-in-up" data-product-id="pickle-variety-12" data-price="499" data-image-src="gongura.jpg">
+                        <div class="product-image"><img src="gongura.jpg" alt="Description of Pickle 12"></div>
+                        <div class="product-info"><h3>GONGURA</h3><p class="product-description">1KG</p><div class="product-actions"><p class="product-price">499/-</p><div class="quantity-selector"><label class="qty-label" for="qty-pickle-13">Qty:</label><input type="number" class="quantity-input" id="qty-pickle-13" name="quantity" min="1" value="1" aria-label="Quantity for Pickle Variety 13 Name"></div></div><button class="btn btn-primary add-to-cart-btn">Add to Cart <i class="fas fa-cart-plus"></i></button></div>
+                    </div>
+                   
+                    <div class="product-card animate-on-scroll fade-in-up delay-1" data-product-id="pickle-variety-13" data-price="450" data-image-src="chicken.jpeg">
+                        <div class="product-image"><img src="chicken.jpeg" alt="Description of Pickle 13"></div>
+                        <div class="product-info"><h3>CHICKEN</h3><p class="product-description">0.5KG</p><div class="product-actions"><p class="product-price">450/-</p><div class="quantity-selector"><label class="qty-label" for="qty-pickle-14">Qty:</label><input type="number" class="quantity-input" id="qty-pickle-14" name="quantity" min="1" value="1" aria-label="Quantity for Pickle Variety 14 Name"></div></div><button class="btn btn-primary add-to-cart-btn">Add to Cart <i class="fas fa-cart-plus"></i></button></div>
+                    </div>
+                   
+                    <div class="product-card animate-on-scroll fade-in-up delay-2" data-product-id="pickle-variety-14" data-price="900" data-image-src="chicken.jpeg">
+                        <div class="product-image"><img src="chicken.jpeg" alt="Description of Pickle 14"></div>
+                        <div class="product-info"><h3>CHICKEN</h3><p class="product-description">1KG</p><div class="product-actions"><p class="product-price">900/-</p><div class="quantity-selector"><label class="qty-label" for="qty-pickle-15">Qty:</label><input type="number" class="quantity-input" id="qty-pickle-15" name="quantity" min="1" value="1" aria-label="Quantity for Pickle Variety 15 Name"></div></div><button class="btn btn-primary add-to-cart-btn">Add to Cart <i class="fas fa-cart-plus"></i></button></div>
+                    </div>
+                    
+                    <div class="product-card animate-on-scroll fade-in-up delay-3" data-product-id="pickle-variety-15" data-price="450" data-image-src="chickengongura.jpeg">
+                        <div class="product-image"><img src="chickengongura.jpeg" alt="Description of Pickle 15"></div>
+                        <div class="product-info"><h3>CHICKEN GONGURA</h3><p class="product-description">0.5KG</p><div class="product-actions"><p class="product-price">450/-</p><div class="quantity-selector"><label class="qty-label" for="qty-pickle-16">Qty:</label><input type="number" class="quantity-input" id="qty-pickle-16" name="quantity" min="1" value="1" aria-label="Quantity for Pickle Variety 16 Name"></div></div><button class="btn btn-primary add-to-cart-btn">Add to Cart <i class="fas fa-cart-plus"></i></button></div>
+                    </div>
+                  
+                    <div class="product-card animate-on-scroll fade-in-up" data-product-id="pickle-variety-16" data-price="900" data-image-src="chickengongura.jpeg">
+                        <div class="product-image"><img src="chickengongura.jpeg" alt="Description of Pickle 16"></div>
+                        <div class="product-info"><h3>CHICKEN GONGURA</h3><p class="product-description">1KG</p><div class="product-actions"><p class="product-price">900/-</p><div class="quantity-selector"><label class="qty-label" for="qty-pickle-17">Qty:</label><input type="number" class="quantity-input" id="qty-pickle-17" name="quantity" min="1" value="1" aria-label="Quantity for Pickle Variety 17 Name"></div></div><button class="btn btn-primary add-to-cart-btn">Add to Cart <i class="fas fa-cart-plus"></i></button></div>
+                    </div>
+                   
+                    <div class="product-card animate-on-scroll fade-in-up delay-1" data-product-id="pickle-variety-17" data-price="500" data-image-src="chicbonelss.jpg">
+                        <div class="product-image"><img src="chicbonelss.jpg" alt="Description of Pickle 17"></div>
+                        <div class="product-info"><h3>CHICKEN BONELESS</h3><p class="product-description">0.5KG</p><div class="product-actions"><p class="product-price">500/-</p><div class="quantity-selector"><label class="qty-label" for="qty-pickle-18">Qty:</label><input type="number" class="quantity-input" id="qty-pickle-18" name="quantity" min="1" value="1" aria-label="Quantity for Pickle Variety 18 Name"></div></div><button class="btn btn-primary add-to-cart-btn">Add to Cart <i class="fas fa-cart-plus"></i></button></div>
+                    </div>
+                   
+                    <div class="product-card animate-on-scroll fade-in-up delay-2" data-product-id="pickle-variety-18" data-price="999" data-image-src="chicbonelss.jpg">
+                        <div class="product-image"><img src="chicbonelss.jpg" alt="Description of Pickle 18"></div>
+                        <div class="product-info"><h3>CHICKEN BONELESS</h3><p class="product-description">1KG</p><div class="product-actions"><p class="product-price">999/-</p><div class="quantity-selector"><label class="qty-label" for="qty-pickle-19">Qty:</label><input type="number" class="quantity-input" id="qty-pickle-19" name="quantity" min="1" value="1" aria-label="Quantity for Pickle Variety 19 Name"></div></div><button class="btn btn-primary add-to-cart-btn">Add to Cart <i class="fas fa-cart-plus"></i></button></div>
+                    </div>
+                  
+                    <div class="product-card animate-on-scroll fade-in-up delay-3" data-product-id="pickle-variety-19" data-price="700" data-image-src="prawngon.jpg">
+                        <div class="product-image"><img src="prawngon.jpg" alt="Description of Pickle 19"></div>
+                        <div class="product-info"><h3>PRAWN GONGURA</h3><p class="product-description">0.5KG</p><div class="product-actions"><p class="product-price">700/-</p><div class="quantity-selector"><label class="qty-label" for="qty-pickle-20">Qty:</label><input type="number" class="quantity-input" id="qty-pickle-20" name="quantity" min="1" value="1" aria-label="Quantity for Pickle Variety 20 Name"></div></div><button class="btn btn-primary add-to-cart-btn">Add to Cart <i class="fas fa-cart-plus"></i></button></div>
+                    </div>
+                    
+                    <div class="product-card animate-on-scroll fade-in-up" data-product-id="pickle-variety-20" data-price="1399" data-image-src="prawngon.jpg">
+                        <div class="product-image"><img src="prawngon.jpg" alt="Description of Pickle 20"></div>
+                        <div class="product-info"><h3>PRAWN GONGURA</h3><p class="product-description">1KG</p><div class="product-actions"><p class="product-price">1399/-</p><div class="quantity-selector"><label class="qty-label" for="qty-pickle-21">Qty:</label><input type="number" class="quantity-input" id="qty-pickle-21" name="quantity" min="1" value="1" aria-label="Quantity for Pickle Variety 21 Name"></div></div><button class="btn btn-primary add-to-cart-btn">Add to Cart <i class="fas fa-cart-plus"></i></button></div>
+                    </div>
+                    
+                    <div class="product-card animate-on-scroll fade-in-up delay-1" data-product-id="pickle-variety-21" data-price="750" data-image-src="prawn.jpg">
+                        <div class="product-image"><img src="prawn.jpg" alt="Description of Pickle 21"></div>
+                        <div class="product-info"><h3>PRAWN</h3><p class="product-description">0.5KG</p><div class="product-actions"><p class="product-price">750/-</p><div class="quantity-selector"><label class="qty-label" for="qty-pickle-22">Qty:</label><input type="number" class="quantity-input" id="qty-pickle-22" name="quantity" min="1" value="1" aria-label="Quantity for Pickle Variety 22 Name"></div></div><button class="btn btn-primary add-to-cart-btn">Add to Cart <i class="fas fa-cart-plus"></i></button></div>
+                    </div>
+                 
+                    <div class="product-card animate-on-scroll fade-in-up delay-2" data-product-id="pickle-variety-22" data-price="1499" data-image-src="prawn.jpg">
+                        <div class="product-image"><img src="prawn.jpg" alt="Description of Pickle 22"></div>
+                        <div class="product-info"><h3>PRAWN</h3><p class="product-description">1KG</p><div class="product-actions"><p class="product-price">1499/-</p><div class="quantity-selector"><label class="qty-label" for="qty-pickle-23">Qty:</label><input type="number" class="quantity-input" id="qty-pickle-23" name="quantity" min="1" value="1" aria-label="Quantity for Pickle Variety 23 Name"></div></div><button class="btn btn-primary add-to-cart-btn">Add to Cart <i class="fas fa-cart-plus"></i></button></div>
+                    </div>
+
+                    <div class="product-card animate-on-scroll fade-in-up delay-3" data-product-id="pickle-variety-23" data-price="900" data-image-src="muttboneless.jpg">
+                        <div class="product-image"><img src="muttboneless.jpg" alt="Description of Pickle 23"></div>
+                        <div class="product-info"><h3>MUTTON BONELESS</h3><p class="product-description">0.5KG</p><div class="product-actions"><p class="product-price">900/-</p><div class="quantity-selector"><label class="qty-label" for="qty-pickle-24">Qty:</label><input type="number" class="quantity-input" id="qty-pickle-24" name="quantity" min="1" value="1" aria-label="Quantity for Pickle Variety 24 Name"></div></div><button class="btn btn-primary add-to-cart-btn">Add to Cart <i class="fas fa-cart-plus"></i></button></div>
+                    </div>
+                    <div class="product-card animate-on-scroll fade-in-up delay-3" data-product-id="pickle-variety-24" data-price="1799" data-image-src="muttboneless.jpg">
+                        <div class="product-image"><img src="muttboneless.jpg" alt="Description of Pickle 24"></div>
+                        <div class="product-info"><h3>MUTTON BONELESS</h3><p class="product-description">1KG</p><div class="product-actions"><p class="product-price">1799/-</p><div class="quantity-selector"><label class="qty-label" for="qty-pickle-24">Qty:</label><input type="number" class="quantity-input" id="qty-pickle-24" name="quantity" min="1" value="1" aria-label="Quantity for Pickle Variety 24 Name"></div></div><button class="btn btn-primary add-to-cart-btn">Add to Cart <i class="fas fa-cart-plus"></i></button></div>
+                    </div>
+                    <!-- End 24 Cards -->
+
+                </div>
+                <!-- Optional: Link to a dedicated shop page if needed -->
+                 <!-- <div class="text-center animate-on-scroll fade-in">
+                     <a href="shop.html" class="btn btn-secondary">Explore the Full Range</a>
+                 </div> -->
+            </div>
+        </section>
+
+        <!-- FAQ Section Placeholder -->
+        <section id="faq" class="faq-section">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll fade-in">Common Questions</h2>
+                 <details class="animate-on-scroll fade-in-up delay-1">
+                     <summary>How long do the pickles last? <i class="fas fa-chevron-down"></i></summary>
+                     <p>Our pickles are canned using traditional methods for shelf stability. Best enjoyed within 1 year unopened. Refrigerate after opening and consume within 2-3 weeks for best texture.</p> <!-- REPLACE/VERIFY -->
+                 </details>
+                 <details class="animate-on-scroll fade-in-up delay-2">
+                     <summary>What are your shipping policies? <i class="fas fa-chevron-down"></i></summary>
+                     <p>We carefully pack each jar to prevent breakage. We currently ship to [Your Shipping Zones]. Please visit our Shipping Policy page for detailed information on rates and times.</p> <!-- REPLACE/VERIFY -->
+                 </details>
+                 <details class="animate-on-scroll fade-in-up delay-3">
+                     <summary>What ingredients do you use? <i class="fas fa-chevron-down"></i></summary>
+                     <p>We pride ourselves on using fresh, high-quality ingredients, sourcing locally when possible. Specific ingredients for each variety are listed on the product page [Ensure you have this page or link to product details]. Common allergens like [List any common allergens relevant] are handled with care, but please check labels.</p> <!-- REPLACE/VERIFY -->
+                 </details>
+                 <!-- Add more FAQs -->
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-links">
+                <!-- Create separate HTML pages for these or link to sections if on one page -->
+                <a href="privacy.html">Privacy Policy</a> |
+                <a href="terms.html">Terms of Service</a> |
+                <a href="shipping.html">Shipping & Returns</a>
+            </div>
+            <div class="social-media">
+                <a href="https://www.instagram.com/aruna_pickles11?igsh=Z28xd2kwcmc4dWUw" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com/@arunasagiraju-i7g?si=A7PipeQQuzUYfv45"   aria-label="youtube"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="copyright">
+                © 2023 Pickle Pantry. Crafted with Passion. <!-- UPDATE YEAR & BRAND -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Drawer -->
+    <div id="cart-drawer" class="cart-drawer">
+        <div class="cart-header">
+            <h2>Your Cart</h2>
+            <button id="close-cart-btn" class="close-cart-btn" aria-label="Close cart">×</button>
+        </div>
+        <div id="cart-items-container" class="cart-items-container">
+            <!-- Cart items will be dynamically added here by JavaScript -->
+            <p class="cart-empty-message">Your cart is currently empty.</p>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <strong>Total:</strong> <span id="cart-total-price">0.00/-</span>
+            </div>
+            <b>SHIPPING CHARGES EXTRA</b>
+            <!-- Link this to your actual checkout page/process when ready -->
+            <button class="btn btn-accent checkout-btn"><a href="detail.html">Proceed to Checkout</a></button>
+        </div>
+    </div>
+    <div id="cart-overlay" class="cart-overlay"></div> <!-- Overlay for background -->
+    <!-- End Cart Drawer -->
+
+    <script src="script.js"></script>
+</body>
+</html>
