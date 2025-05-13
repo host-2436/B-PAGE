@@ -200,7 +200,7 @@ section {
     padding: 0;
 
     /* PARALLAX EFFECT */
-    background-image: url('logo4.png'); /* <<< YOUR HERO IMAGE */
+    background-image: url('images/logo4.png'); /* <<< YOUR HERO IMAGE */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
